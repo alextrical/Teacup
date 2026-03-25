@@ -29,7 +29,7 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad9_auto:latest  # Don't Change, except if needing older version of KiCad.
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     - name: Remove "Internal-" prefix
       run: |
